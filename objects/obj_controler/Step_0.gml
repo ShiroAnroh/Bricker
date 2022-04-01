@@ -16,6 +16,7 @@ if(instance_number(obj_brickBlue) <= 0
 	if(room != rm_gameTemplate)
 	{
 		room_goto_next();
+		global.roomNumber +=1
 	}
 	else if (room == rm_game3)
 	{
@@ -39,6 +40,7 @@ if(global.gameover)
 			spd = 3;
 			speed = spd;
 		}
+		global.roomNumber = 0;
 		global.player_score = 0;
 		global.player_lives = 3;
 		audio_play_sound(snd_Click, 1, false);

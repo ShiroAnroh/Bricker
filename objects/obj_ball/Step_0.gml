@@ -4,11 +4,5 @@ if(go == false){
 	x = obj_bat.x;
 }
 
-if(room == rm_game2)
-{
-	spd = 5.10;
-}
-if (room == rm_game3)
-{
-	spd = 3.20;
-}
+spdExtra = 0.10 * global.roomNumber;
+spd = 3 + spdExtra;
