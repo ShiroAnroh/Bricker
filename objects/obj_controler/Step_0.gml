@@ -1,4 +1,4 @@
-   /// @description Gameover/Next lvl
+/// @description Gameover/Next lvl/Pause
 // You can write your code in this editor
 if(room == rm_gameTemplate)
 	{
@@ -18,11 +18,7 @@ if(instance_number(obj_brickBlue) <= 0
 		room_goto_next();
 		global.roomNumber +=1
 	}
-	else if (room == rm_game3)
-	{
-		room_goto(rm_game);
-	}
-	else
+	else if (room == rm_game5)
 	{
 		room_goto(rm_game);
 	}
@@ -46,3 +42,22 @@ if(global.gameover)
 		audio_play_sound(snd_Click, 1, false);
 	} 
 }
+
+if room == rm_game or rm_game2 or rm_game3 or rm_game4 or rm_game5
+{
+if keyboard_check_pressed(vk_escape)
+    {
+    paused = !paused;
+    if paused == false
+        {
+        instance_activate_all();
+        surface_free(paused_surf);
+                paused_surf = -1;
+        }
+    }
+if paused == true
+    {
+    //Stop alarms
+    }
+}
+
