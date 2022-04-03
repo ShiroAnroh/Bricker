@@ -5,4 +5,5 @@ if(go == false){
 	speed = spd;
 	go = true;
 	audio_play_sound(snd_Click, 1, false);
+	 audio_sound_gain(snd_Click, 0.1, 1);
 }
