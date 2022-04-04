@@ -1,4 +1,4 @@
-/// @description Gameover/Next lvl/Pause
+ /// @description Gameover/Next lvl/Pause
 // You can write your code in this editor
 if(room == rm_gameTemplate)
 	{
