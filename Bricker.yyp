@@ -25,6 +25,7 @@
     {"id":{"name":"spr_brickYellow","path":"sprites/spr_brickYellow/spr_brickYellow.yy",},"order":4,},
     {"id":{"name":"rm_gameTemplate","path":"rooms/rm_gameTemplate/rm_gameTemplate.yy",},"order":6,},
     {"id":{"name":"snd_PowerUp","path":"sounds/snd_PowerUp/snd_PowerUp.yy",},"order":2,},
+    {"id":{"name":"rm_game8","path":"rooms/rm_game8/rm_game8.yy",},"order":9,},
     {"id":{"name":"rm_game4","path":"rooms/rm_game4/rm_game4.yy",},"order":4,},
     {"id":{"name":"spr_brickPurple","path":"sprites/spr_brickPurple/spr_brickPurple.yy",},"order":5,},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"order":7,},
@@ -65,6 +66,7 @@
     {"roomId":{"name":"rm_gameTemplate","path":"rooms/rm_gameTemplate/rm_gameTemplate.yy",},},
     {"roomId":{"name":"rm_game6","path":"rooms/rm_game6/rm_game6.yy",},},
     {"roomId":{"name":"rm_game7","path":"rooms/rm_game7/rm_game7.yy",},},
+    {"roomId":{"name":"rm_game8","path":"rooms/rm_game8/rm_game8.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

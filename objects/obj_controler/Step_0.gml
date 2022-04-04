@@ -43,7 +43,7 @@ if(global.gameover)
 	} 
 }
 
-if room == rm_game or rm_game2 or rm_game3 or rm_game4 or rm_game5 or rm_game6 or rm_game7
+if room == rm_game or rm_game2 or rm_game3 or rm_game4 or rm_game5 or rm_game6 or rm_game7 or rm_game8
 {
 if keyboard_check_pressed(vk_escape)
     {
