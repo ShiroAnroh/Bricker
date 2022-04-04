@@ -40,6 +40,7 @@
     {"id":{"name":"spr_wallCornerLeft","path":"sprites/spr_wallCornerLeft/spr_wallCornerLeft.yy",},"order":13,},
     {"id":{"name":"spr_wallHorizontalLeft","path":"sprites/spr_wallHorizontalLeft/spr_wallHorizontalLeft.yy",},"order":9,},
     {"id":{"name":"obj_wallCornerLeft","path":"objects/obj_wallCornerLeft/obj_wallCornerLeft.yy",},"order":14,},
+    {"id":{"name":"rm_game9","path":"rooms/rm_game9/rm_game9.yy",},"order":10,},
     {"id":{"name":"rm_game7","path":"rooms/rm_game7/rm_game7.yy",},"order":8,},
     {"id":{"name":"obj_roof","path":"objects/obj_roof/obj_roof.yy",},"order":12,},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
@@ -67,6 +68,7 @@
     {"roomId":{"name":"rm_game6","path":"rooms/rm_game6/rm_game6.yy",},},
     {"roomId":{"name":"rm_game7","path":"rooms/rm_game7/rm_game7.yy",},},
     {"roomId":{"name":"rm_game8","path":"rooms/rm_game8/rm_game8.yy",},},
+    {"roomId":{"name":"rm_game9","path":"rooms/rm_game9/rm_game9.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
