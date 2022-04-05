@@ -1,4 +1,4 @@
-   /// @description PowerUp effect
+/// @description PowerUp effect
 // You can write your code in this editor
 audio_play_sound(snd_PowerUp, 1, false);
 audio_sound_gain(snd_PowerUp, 0.1, 1);
