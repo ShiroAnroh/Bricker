@@ -4,5 +4,5 @@ if(go == false){
 	x = obj_bat.x;
 }
 
-spdExtra = 0.10 * global.roomNumber;
+spdExtra = 0.05 * global.roomNumber;
 spd = 3 + spdExtra;
